@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0" xmlns="http://www.iab.com/VAST">
+  <Ad id="spiderman-ad">
+    <InLine>
+      <AdSystem>spiderman-ad</AdSystem>
+      <AdTitle>spiderman-ad</AdTitle>
+      <Description>spiderman-ad</Description>
+      <Creatives>
+        <Creative>
+          <Linear skipoffset="00:00:30">
+            <Duration>00:02:27</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" scalable="true" maintainAspectRatio="true">
+                <![CDATA[
+                  https://www.dropbox.com/scl/fi/skg7cjm1qq2kjp3debhke/spiderman.mp4?rlkey=9uihsylw09fuv5qlslb86vadl&st=ilnz4vk2&raw=1
+                ]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough>
+                <![CDATA[
+                  https://example.com/click-through-url
+                ]]>
+              </ClickThrough>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
+
